@@ -19,7 +19,8 @@ public class App
     	
     	AlumnoDto entrada = new AlumnoDto();
     	
-    	List<String>  colores = new ArrayList<>();
+		/* Creacion de listas*/
+		List<String>  colores = new ArrayList<>();
     	
     	List<AlumnoDto> alumnos = new ArrayList<>();
     	   	
@@ -53,6 +54,7 @@ public class App
         	}
         	
     		objeto.imprimirVariable();
+
 		} catch (NullPointerException e) {
 			System.out.println("Favor de inicializar variables y objetos " + e.getMessage());
 		} catch (Exception e) {
